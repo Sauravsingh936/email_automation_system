@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+dist/
+
+# Environment Variables
+.env
+.env.*
+
+# Python (if backend becomes Flask/FastAPI)
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
