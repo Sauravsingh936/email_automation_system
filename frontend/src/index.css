@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fb;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #2563eb;
+  color: white;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.page-title {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+table th {
+  background: #f9fafb;
+}
+
+.ProseMirror {
+  border: 1px solid #ccc;
+  min-height: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ProseMirror:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  padding: 8px 14px;
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-save {
+  background: #28a745;
+}
+
+.btn-update {
+  background: #fd7e14;
+}
+
+.btn-delete {
+  background: #dc3545;
+}
+
+.btn-preview {
+  background: #6f42c1;
+}
+
+.btn-schedule {
+  background: #0d6efd;
+}
+
+.btn-clone {
+  background: #20c997;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.nav-btn {
+  background: #1e3a8a;
+  color: white;
+  margin-right: 10px;
+}
+
+.nav-btn:hover {
+  background: #1d4ed8;
+}
